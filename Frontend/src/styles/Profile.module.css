@@ -1,0 +1,396 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+}
+
+.profile {
+  width: 80%;
+  padding: 50px 40px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 0px 7px 2px rgb(0 0 0 / 23%);
+  -webkit-box-shadow: 0px 0px 7px 2px rgb(0 0 0 / 23%);
+  -moz-box-shadow: 0px 0px 7px 2px rgb(0 0 0 / 23%);
+}
+
+.profile .personalInformation {
+  display: flex;
+  position: relative;
+}
+
+.personalInformationEdit {
+  cursor: pointer;
+  position: absolute;
+  right: 90px;
+  background: #d1bdff;
+  height: 29px;
+  width: 29px;
+  color: #333333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.personalInformationEdit i {
+  font-size: 12px;
+  z-index: 1;
+}
+
+.personalInformation img {
+  width: 230px;
+  height: 230px;
+}
+
+.personalInformation .informationContainer {
+  margin-left: 50px;
+}
+
+.information h1,
+.information h4,
+.information p {
+  text-align: left;
+  letter-spacing: 0.2px;
+}
+
+.information h1 {
+  font-size: 28px;
+  color: #333333;
+}
+
+.information h4 {
+  font-size: 17px;
+  margin-top: 3px;
+  color: #5e4496;
+  font-weight: 700;
+}
+
+.information p {
+  color: #727272;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  margin-top: 12px;
+  font-weight: 400;
+}
+
+.information button {
+  background: #fdfdfd;
+  border: 1px solid #bcbcbc;
+  border-radius: 3px;
+  padding: 2px 7px;
+  margin-top: 15px;
+}
+
+.information button i {
+  color: #5f5f5f;
+  margin-left: 2px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.information button a {
+  color: #333333;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.information button:hover {
+  border-color: #818181;
+}
+
+.information button:hover > i {
+  color: #333333;
+}
+
+.information .socials {
+  margin-top: 20px;
+}
+
+.information .socials i {
+  color: #5f5f5f;
+  margin-right: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.information .socials i:hover {
+  color: #333333;
+}
+
+/* Header */
+.profile .header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.profile .header div {
+  background: #c0c0c0;
+  flex: auto;
+  height: 0.5px;
+}
+
+.profile .header h6 {
+  margin: 0px 15px;
+  font-size: 13px;
+  color: #727272;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* Skills and Projects */
+.profile .skillProject {
+  position: relative;
+}
+
+.skillEdit {
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  background: #d1bdff;
+  height: 29px;
+  width: 29px;
+  color: #333333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.skillEdit i {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.profile .skillProject h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  letter-spacing: 0.3px;
+  margin-top: 35px;
+}
+
+.skillProject .skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.skills strong {
+  background: #ece3ff;
+  color: #2d204a;
+  border: 0.5px solid #d1bbff;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 10px 8px;
+  padding: 2px 8px;
+}
+
+.skillProject .primeProjects {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectEdit {
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  top: 35px;
+  background: #d1bdff;
+  height: 29px;
+  width: 29px;
+  color: #333333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectEdit i {
+  font-size: 12px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+/* Work experience */
+.workExperience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.workExperience i {
+  font-size: 30px;
+  color: #371f6e;
+  border: 1px solid #d2d2d2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.workExperience .workInformation {
+  margin-left: 25px;
+}
+
+.workInformation h3 {
+  font-size: 17px;
+  font-weight: 500;
+  color: #434343;
+  letter-spacing: 0.3px;
+}
+
+.workInformation h4 strong {
+  color: #754bd5;
+  font-weight: 500;
+}
+
+.workInformation h4 {
+  color: #5833ae;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
+
+.workInformation h5 {
+  color: #2e2e2e;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+}
+
+.workExperience h6 {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #727272;
+  letter-spacing: 0.3px;
+}
+
+@media screen and (max-width: 700px) {
+  .information h1 {
+    text-align: center;
+  }
+  .profile {
+    width: 70vw;
+    margin: 20px;
+  }
+  .personalInformation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .personalInformation .informationContainer {
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .informationContainer h1 {
+    margin-top: 30px;
+  }
+
+  .informationContainer p {
+    text-align: center;
+  }
+
+  .information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .projects,
+  .skills {
+    flex-wrap: wrap;
+  }
+}
+
+/* Dialog */
+.dialog {
+  display: none;
+}
+
+.opened {
+  display: block;
+}
+
+.dialogContent {
+  display: inline-block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fdfdfd;
+  padding: 20px;
+  z-index: 2;
+  width: 450px;
+  border-radius: 7px;
+}
+
+.dialogContent .contentWrapper {
+  margin-top: 20px;
+}
+
+.dialogMask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000000c5;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.dialogHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.dialogContent .closeIcon {
+  color: #333333;
+  cursor: pointer;
+}
+
+.dialogContent h4 {
+  font-size: 17px;
+  margin-top: 3px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.dialogContent .contentWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentWrapper .titlePicture {
+  cursor: pointer;
+}
+
+.contentWrapper .titleIcon {
+  cursor: pointer;
+  margin: 10px 10px;
+}
